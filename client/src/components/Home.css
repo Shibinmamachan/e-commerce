@@ -1,0 +1,33 @@
+/* Add hover zoom effect */
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Uniform card height */
+.card {
+    height: 100%;
+}
+
+/* Uniform image height */
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Optional: Makes cards stretch to match column height */
+.card-body {
+    flex-grow: 1;
+}
+button{
+    background-color: #83749c;
+}
+button:hover {
+background-color: aqua;
+}
+button:active {
+    background-color: burlywood;
+}

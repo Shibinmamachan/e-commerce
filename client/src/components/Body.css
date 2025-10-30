@@ -1,0 +1,22 @@
+/* src/components/LandingPage.css */
+
+.landing-container {
+    height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/1496351.jpg');
+    /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.text-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Dark overlay */
+    padding: 1rem;
+    border-color: black;
+    width: 700px;
+    margin: 60px;
+    border-radius: 8px;
+    align-content: center;
+}

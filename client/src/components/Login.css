@@ -1,0 +1,13 @@
+/* src/components/Login.css */
+
+.login-page {
+    height: 100vh;
+    background: linear-gradient(to right, #f8f9fa, #e0e0e0);
+    padding: 20px;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+}
